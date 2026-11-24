@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<HTML lang="pt-BR">
+
+<head>
+    <title>Java Script aula 02</title>
+    
+</head>
+
+<body onload="alert('Carregando a paǵina')">
+        <script lang="JavaScript" src="script aula02.js"></script>
+
+    <h1 onclick="alert('clique no h1')">JavaScript - Aula 02</h1>
+
+    <form>
+        <label for="fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" onchange="alert('Mudou o conteúdo')"><br>
+        <label for="lname">Last name: </label><br>
+        <input type="text" id="lname" name="lname" onblur="alert('Não ligo se voce mudou o campo')">
+
+        <input type="submit" value="Clique 1x" onclick="alert ('clicou 1x')"/>
+        <input type="submit" value="Clique 2x" ondblclick="alert ('clicou 2x')"/>
+
+        <label for="lend">Endereço: </label><br>
+        <input type="submit" id="lend" name="lend" ondselect="alert ('Selecionou')"/><br>
+        <input ytpe="text" id="lfone" name="lfone" onkeyup="alert('Deixou de pressionar a tecla')"><br>
+        <input ytpe="text" id="lfone" name="lfone" onkeypress="alert('Pressionou a tecla')"><br>
+        <input ytpe="text" id="lfone" name="lfone" onkeydown="alert('Pressionando a tecla')"><br>
+
+    </form>
+
+        <button onclick="document.getElementById('demo').innerHTML+=Date()">
+            Data atual
+        </button>
+        <p id="demo">Data atual: </p><br>
+
+    <img src="Interview with a deer.jpeg" width="250px" height="250px"
+    onclick="alert('clique na imagem')" onmouseenter="alert('Entrevistando o veado')"
+    onmouseout="alert('A entrevista acabou')"><br>
+
+    <img src="No I’m not a cat.jpeg" onmousemove="  document.getElementById('mouse').innerHTML 
+    +=aaaa" sizes="300px">
+    <p id(mouse)>Mouse move</p>
+
+    <input type="submit" value="Chamar função" value="Chamar função" onclick="exibe_mensagem()">
+    <p id="pMSG">Retorno da função: </p>
+    
+</body>
+
+</HTML>
+
+</DOCTYPE>
